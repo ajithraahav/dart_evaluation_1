@@ -29,7 +29,7 @@ even_or_odd(){
   return number%2 == 0 ? '$number is a even number!' : '$number is a odd number!';
 }
 
-divisor(){
+void divisor(){
   print('Enter a number ?');
   String? num_str = stdin.readLineSync();
   int number = int.parse(num_str!);
